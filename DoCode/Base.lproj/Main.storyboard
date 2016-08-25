@@ -23,8 +23,7 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gnL-Rg-lO3">
-                                <frame key="frameInset" minX="154" minY="69" width="67" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gnL-Rg-lO3">
                                 <state key="normal" title="PUSH ME"/>
                                 <connections>
                                     <action selector="buttonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="3Jt-kG-J8v"/>
@@ -52,10 +51,10 @@
                             <constraint firstItem="QbL-ib-wqn" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="BYP-Zc-Nb7"/>
                             <constraint firstItem="QbL-ib-wqn" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="20" id="O0a-he-bS8"/>
                             <constraint firstItem="gnL-Rg-lO3" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Sac-kU-n4s"/>
-                            <constraint firstItem="gnL-Rg-lO3" firstAttribute="top" secondItem="QbL-ib-wqn" secondAttribute="bottom" constant="9" id="Zh5-tK-Rau"/>
+                            <constraint firstItem="gnL-Rg-lO3" firstAttribute="top" secondItem="QbL-ib-wqn" secondAttribute="bottom" constant="8" id="Zh5-tK-Rau"/>
                             <constraint firstItem="Zsk-KA-phy" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="dwg-Nx-Jkw"/>
                             <constraint firstItem="Kmj-yf-8tU" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="ig8-CU-QuW"/>
-                            <constraint firstItem="Zsk-KA-phy" firstAttribute="top" secondItem="gnL-Rg-lO3" secondAttribute="bottom" constant="9" id="nLq-EE-zB8"/>
+                            <constraint firstItem="Zsk-KA-phy" firstAttribute="top" secondItem="gnL-Rg-lO3" secondAttribute="bottom" constant="10" id="nLq-EE-zB8"/>
                             <constraint firstItem="Kmj-yf-8tU" firstAttribute="top" secondItem="Zsk-KA-phy" secondAttribute="bottom" constant="9" id="sSq-QM-hRD"/>
                         </constraints>
                     </view>
